@@ -1,0 +1,8 @@
+SELECT * From video_game_scores;
+
+SELECT * FROM video_game_sales_by_console;
+
+SELECT video_game_sales_by_console.global_sales, video_game_scores.console, video_game_scores.critic_score
+FROM video_game_scores
+INNER JOIN video_game_sales_by_console
+ON video_game_scores.console = video_game_sales_by_console.console;
