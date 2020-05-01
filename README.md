@@ -7,7 +7,9 @@ Awe Ryan, Daniel Chavez
 
 ETL can be fun!
 We started with the following data sets:
+
 https://www.kaggle.com/gregorut/videogamesales
+
 https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings
 
 The data sets take a look at video game sales of games exceeding 100k copies worldwide. The data sets include rank, name, platform, year, genre, publish, NA Sales, EU Sales, JP Sales, other sales, Global sales, critic rating, and user rating. For this project we are analyzing video game sales by console, rating, and sales. We hypothesized that this will be a relational data set as not all games are which are rated highly sell the best in our opinion. 
